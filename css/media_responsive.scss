@@ -1,0 +1,519 @@
+
+// Tablet-responsive
+
+@media only screen and (min-width: 768px) {
+	.header_list{
+
+		.active_ul{
+			display: block !important;
+			position: fixed;
+			top: 72px;
+			right: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: transparent;
+			text-align: center;
+			li{
+				width: 100%;
+				a{
+					background-color: #111;
+					text-align: center;
+					float: left;
+					margin: -35px -20px;
+					padding: 26px 0;
+					width: 100%;
+					&:hover{
+						text-decoration: none;
+						background-color: red;
+					}
+				}
+				
+			}
+
+		}
+		.open_ul{
+			display: none ;
+			li{
+				display: inline-block;
+				list-style-type: none;
+				margin: 30px 20px;
+
+				a{
+					text-decoration: none;
+					color:#b0b0b0;
+					font-size: 14px;
+					font-family: Regular Arial;
+					display: block;
+					transition:all 0.5s ease-in-out;
+					&:hover{
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+				
+			}
+		}
+
+		.icon-nav{
+			display: block;
+			position: absolute;
+			right: 0px;
+			top: 30px;
+			.click_btn{
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+			}
+		}
+	}
+
+
+////////////////////////////////////////////////Tablet version Header nav fersion
+
+/////////////////////////////////////////////// Tablet version Sosial version
+
+.social{
+	.social_icon{
+		ul{
+			li{
+				a{
+					font-size: 35px;
+					padding: 10px 6px;
+				}
+			}
+		}
+	}
+}
+
+
+/////////////////////////////////////////////Tablet customers_commit version
+.customers_commit{
+	text-align: left;
+	.qirag{
+		position: absolute;
+		z-index: -1;
+		img{
+			height: 147px;
+		}
+	}
+	p{
+		padding: 10px 15px; 
+		color: #8d8e92;
+		font-size: 14px;
+
+	}
+}
+
+
+/////////////////////////////////////////////Tablet contack version
+
+
+
+.contack{
+	
+	.contack_all{
+		form{
+			
+			
+			.box_btn{
+				margin: 0px 40% ;
+				a{
+					text-decoration: none;
+					color: #fff;
+					background-color:#ff9b51;
+					border: 2px solid #fff;
+					font-size: 15px;
+					border-radius: 5px;
+					padding: 13px 25px;
+					transition:all 0.5s ease-in-out;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+
+/////////////////////////////////////////////Tablet footer version
+
+footer{
+	background-color: black;
+	text-align: center;
+	ul{
+		li{
+			display: inline-block;
+			list-style-type: none;
+
+			a{
+				
+				text-decoration: none;
+				margin-top: 10px;
+				display: block;
+				
+				i{
+					color: #cccccc;
+					font-size: 24px !important;
+				}
+			}
+		}
+	}
+	p{
+		font-size: 12px;
+		color: #808080;
+		margin: 0px 0 0 -30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Desktop-responsive
+
+
+@media only screen and (min-width: 992px) {
+
+
+
+	.header_list{
+
+		.active_ul{
+			display: block;
+			position: absolute;
+			top:0px;
+			background-color:transparent; 
+			width: 100%;
+			text-align: left;
+			li{
+				width: 0%;
+				padding:0px 20px; 
+			}
+
+		}
+		.open_ul{
+			display: block;
+			li{
+				display: inline-block;
+				list-style-type: none;
+				margin: 30px 20px;
+
+				a{
+					text-decoration: none;
+					color:#b0b0b0;
+					font-size: 14px;
+					font-family: Regular Arial;
+					display: block;
+					transition:all 0.5s ease-in-out;
+					&:hover{
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+				
+			}
+		}
+
+		.icon-nav{
+			display: none;
+			position: absolute;
+			right: 0px;
+			top: 30px;
+			.click_btn{
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+			}
+		}
+	}
+
+
+
+	////////////////////////////////////////////////Desktop version Header nav fersion
+
+	/////////////////////////////////////////////// Desktop version Sosial version
+
+	.social{
+		.social_icon{
+			ul{
+				li{
+					a{
+						font-size: 48px ;
+						padding: 0px 14px;
+					}
+				}
+			}
+		}
+	}
+
+
+/////////////////////////////////////////////Desktop customers_commit version
+.customers_commit{
+	text-align: left;
+	.qirag{
+		position: absolute;
+		z-index: -1;
+		img{
+			height: 147px;
+		}
+	}
+	p{
+		padding: 10px 15px; 
+		color: #8d8e92;
+		font-size: 14;
+	}
+}
+
+
+////////////////////////////////////////////Desktop contack version
+
+.contack{
+	
+	.contack_all{
+		form{
+			
+			
+			.box_btn{
+				margin: 0px 41% ;
+				a{
+					text-decoration: none;
+					color: #fff;
+					background-color:#ff9b51;
+					border: 2px solid #fff;
+					font-size: 15px;
+					border-radius: 5px;
+					padding: 13px 25px;
+					transition:all 0.5s ease-in-out;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+
+/////////////////////////////////////////////Desktop footer version
+
+footer{
+	background-color: black;
+	text-align: center;
+	height: 100%;
+	ul{
+		margin-top: 0;
+		margin-bottom: 0;
+		li{
+			display: inline-block;
+			list-style-type: none;
+			
+			a{
+				text-decoration: none;
+				margin-top: 10px;
+				display: block;
+				
+				i{
+					color: #cccccc;
+
+				}
+			}
+		}
+	}
+	p{
+		font-size: 12px;
+		color: #808080;
+		margin: 0px 0 0 -30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+
+
+}
+
+
+
+
+
+
+
+// Large Desktop-responsive
+
+@media only screen and (min-width: 1280px){
+
+
+	.header_list{
+
+		
+		.open_ul{
+			display: block !important;
+			li{
+				display: inline-table;
+				list-style-type: none;
+				margin: 30px 20px;
+
+				a{
+					text-decoration: none;
+					color:#b0b0b0;
+					font-size: 14px;
+					font-family: Regular Arial;
+					display: block;
+					transition:all 0.5s ease-in-out;
+					&:hover{
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+				
+			}
+		}
+
+		.icon-nav{
+			display: none !important;
+			position: absolute;
+			right: 0px;
+			top: 30px;
+			.click_btn{
+				text-decoration: none;
+				outline: none;
+				color: #fff;
+			}
+		}
+	}
+
+	///////Large Desktop-responsive Header
+
+	
+
+	/////////////////////////////////////////////// Large Desktop version Sosial version
+
+	.social{
+
+		
+		.social_icon{
+			ul{
+				li{
+					a{
+						font-size: 48px ;
+						padding: 0px 25px;
+					}
+				}
+			}
+		}
+
+	}
+
+
+	.list_img2{
+		position:relative;
+		left: 70px;
+
+		img{
+			width: 100%;
+			height: 453px;
+		}
+	}
+
+
+/////////////////////////////////////////////Desktop customers_commit version
+.customers_commit{
+	text-align: left;
+	.qirag{
+		position: absolute;
+		z-index: -1;
+		img{
+			height: 147px;
+		}
+	}
+	p{
+		padding: 10px 15px; 
+		color: #8d8e92;
+		font-size: 14;
+	}
+}
+
+
+////////////////////////////////////////////Large Desktop contack version
+
+.contack{
+	
+	.contack_all{
+		form{
+			
+			
+			.box_btn{
+				margin: 0px 41% ;
+				a{
+					text-decoration: none;
+					color: #fff;
+					background-color:#ff9b51;
+					border: 2px solid #fff;
+					font-size: 15px;
+					border-radius: 5px;
+					padding: 13px 25px;
+					transition:all 0.5s ease-in-out;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+
+/////////////////////////////////////////////Large Desktop footer version
+
+footer{
+	background-color: black;
+	text-align: center;
+	height: 100%;
+	ul{
+		margin-top: 0;
+		margin-bottom: 0;
+		li{
+			display: inline-block;
+			list-style-type: none;
+
+			a{
+				text-decoration: none;
+				margin-top: 10px;
+				display: block;
+				
+				i{
+					color: #cccccc;
+
+				}
+			}
+		}
+	}
+	p{
+		font-size: 12px;
+		color: #808080;
+		margin: 0px 0 0 -30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.about{
+	background-image: url("../img/city.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	
+	
+}
+
+}
